@@ -4,27 +4,16 @@ set -e
 
 ######################################################################################
 #                                                                                    #
-# Project 'pterodactyl-installer'                                                    #
+# Hostvora Installer                                                                 #
 #                                                                                    #
-# Copyright (C) 2018 - 2026, Vilhelm Prytz, <vilhelm@prytznet.se>                    #
+# Copyright (C) 2026, Hostvora                                                       #
 #                                                                                    #
-#   This program is free software: you can redistribute it and/or modify             #
-#   it under the terms of the GNU General Public License as published by             #
-#   the Free Software Foundation, either version 3 of the License, or                #
-#   (at your option) any later version.                                              #
+# This installer is intended for internal use by Hostvora.                           #
 #                                                                                    #
-#   This program is distributed in the hope that it will be useful,                  #
-#   but WITHOUT ANY WARRANTY; without even the implied warranty of                   #
-#   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the                    #
-#   GNU General Public License for more details.                                     #
+# Based on the original pterodactyl-installer project.                               #
+# Modified and maintained by Hostvora.                                               #
 #                                                                                    #
-#   You should have received a copy of the GNU General Public License                #
-#   along with this program.  If not, see <https://www.gnu.org/licenses/>.           #
-#                                                                                    #
-# https://github.com/pterodactyl-installer/pterodactyl-installer/blob/master/LICENSE #
-#                                                                                    #
-# This script is not associated with the official Pterodactyl Project.               #
-# https://github.com/pterodactyl-installer/pterodactyl-installer                     #
+# Unauthorized redistribution or publication is not intended.                        #
 #                                                                                    #
 ######################################################################################
 
