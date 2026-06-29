@@ -19,6 +19,9 @@ Ein interner Installer für die automatische Einrichtung von **Pterodactyl Panel
 * AlmaLinux 9
 * Rocky Linux 9
 
+## Nutzen
+
+* Nutze den Befehl um es zu installieren: ``bash <(curl -fsSL https://raw.githubusercontent.com/Hostvora/pterodactyl-installer/master/install.sh)``
 ## Hinweise
 
 * Die Installation sollte auf einem frischen Server erfolgen.
