@@ -53,7 +53,7 @@ export EMAIL=""
 export CONFIGURE_DBHOST=false
 export CONFIGURE_DB_FIREWALL=false
 export MYSQL_DBHOST_HOST="127.0.0.1"
-export MYSQL_DBHOST_USER="pterodactyluser"
+export MYSQL_DBHOST_USER="pterodactyl"
 export MYSQL_DBHOST_PASSWORD=""
 
 # ------------ User input functions ------------ #
@@ -153,7 +153,7 @@ main() {
 
     MYSQL_DBHOST_USER="-"
     while [[ "$MYSQL_DBHOST_USER" == *"-"* ]]; do
-      required_input MYSQL_DBHOST_USER "Database host username (pterodactyluser): " "" "pterodactyluser"
+      required_input MYSQL_DBHOST_USER "Database host username (pterodactyl): " "" "pterodactyl"
       [[ "$MYSQL_DBHOST_USER" == *"-"* ]] && error "Database user cannot contain hyphens"
     done
 
